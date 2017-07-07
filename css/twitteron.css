@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0,0);
+    padding: 15px;
+}
+
+.tweet{
+    border-radius: 5px;
+    background-color: rgb(210,210,210);
+    height: 90px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.tweet-text{
+    text-align: left;
+}
+
+.panel{
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, .2);
+    padding: 8px;
+}
+
+.tweet-header{
+    float: right;
+    font-size: xx-small;
+    margin-top: 2px;
+}
+
+.tweet-author{
+    font-size: 12px;
+    float: left;
+}
+
+.tweet-time{
+    font-size: 10px;
+    margin-left: 3px;
+}

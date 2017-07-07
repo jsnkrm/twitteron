@@ -1,0 +1,30 @@
+{
+  "name": "twitteron",
+  "version": "1.0.0",
+  "description": "Cross-platform twitter widget using Electron. Amal sided.",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsnkrm/twitteron/"
+  },
+  "keywords": [
+    "twitter",
+    "electron",
+    "twitteron",
+    "jsnkrm",
+    "asr1191",
+    "widget",
+    "gadget",
+    "windows",
+    "linux",
+    "mac"
+  ],
+  "author": "Jayasanker M, Amal S Raj",
+  "license": "MIT",
+  "dependencies": {
+    "cat-picture": "^5.1.2"
+  }
+}

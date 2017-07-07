@@ -3,18 +3,9 @@ body{
     padding: 15px;
 }
 
-.tweet{
-    border-radius: 5px;
-    background-color: rgb(210,210,210);
-    height: 90px;
-}
 
 img{
     border-radius: 5px;
-}
-
-.tweet-text{
-    text-align: left;
 }
 
 .panel{

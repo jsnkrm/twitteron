@@ -19,8 +19,10 @@ img{
 }
 
 .panel{
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, .2);
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, .5);
     padding: 8px;
+    margin-bottom: 4px;
+    position: relative;
 }
 
 .tweet-header-right{
@@ -55,10 +57,21 @@ img{
 }
 
 .embed-img{
-    position: fixed;
-    left: 471px;
-    top: 95px;
+    position: absolute;
+    left: 442px;
+    top: 80px;
     font-size: 10px;
     color: rgb(165, 165, 165)
 
+}
+
+
+::-webkit-scrollbar {     
+        background-color: #fff;
+        width: .8em
+}
+
+::-webkit-scrollbar-thumb:window-inactive,
+::-webkit-scrollbar-thumb {
+        background:  black
 }

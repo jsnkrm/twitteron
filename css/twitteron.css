@@ -23,21 +23,20 @@ img{
     padding: 8px;
 }
 
-.tweet-header{
+.tweet-header-right{
     float: right;
     font-size: xx-small;
     margin-top: 2px;
 }
 
-.tweet-author{
+.tweet-header-left{
     font-size: 15px;
     float: left;
     font-family: "Roboto Condensed";
 }
 
-.tweet-time{
-    font-size: 10px;
-    margin-left: 3px;
+#tweet-time{
+    color: rgb(165, 165, 165);
 }
 
 @font-face{
@@ -57,8 +56,9 @@ img{
 
 .embed-img{
     position: fixed;
-    left: 468px;
-    top: 90px;
+    left: 471px;
+    top: 95px;
     font-size: 10px;
+    color: rgb(165, 165, 165)
 
 }
